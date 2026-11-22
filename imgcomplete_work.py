@@ -1,4 +1,5 @@
 import os, re
+import cudatext as app
 from .imgsize import get_image_size
 
 REGEX_PICS = r'.*\.(png|bmp|gif|ico|jpg|jpeg)'
@@ -63,7 +64,7 @@ def imgcomplete_on_complete(ed):
     if len(carets)!=1:
         return
 
-    fname=ed.get_filename()
+    fname=ed.get_prop(app.PROP_FN, '')
     if not fname:
         return
     file_dir=os.path.dirname(fname)

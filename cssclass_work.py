@@ -30,7 +30,7 @@ def get_css_text(text):
     return css_text 
 
 def get_css_filenames(text):
-    fn_ed = ed.get_filename()
+    fn_ed = ed.get_prop(PROP_FN, '')
     if not fn_ed:
         return ''
     dir_ed = os.path.dirname(fn_ed)

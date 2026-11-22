@@ -1,18 +1,18 @@
+2026.11.21
+- fix: avoid deprecated API: get_filename
 
 2018.07.17
-+ added display of picture size NNxNN in completion listbox
-+ skip Unix hidden files/dirs
++ add: added display of picture size NNxNN in completion listbox
++ add: skip Unix hidden files/dirs
 
 2018.07.16
-+ merged two plugins: 
-  old HTML Class Complete + 
-  new HTML Filenames Complete, which handles <img src="|">
-+ added test_files folder
++ add: merged two plugins: old "HTML Class Complete" + new "HTML Filenames Complete", which handles <img src="|">
++ add: added test_files folder
 
 2018.07.12
-+ code refactored
-+ supported PHP lexer and other "HTML nnnnnn" lexers
-+ new readme.txt
++ add: code refactored
++ add: supported PHP lexer and other "HTML nnnnnn" lexers
++ add: new readme.txt
 
 2015.10
-initial
+initial version
